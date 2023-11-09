@@ -1,0 +1,160 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+/* General styles */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: lato, sans-serif;
+    color: black;
+
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 2px;
+    font-family: Roboto, sans-serif;
+    color: black;
+}
+
+/* Header */
+Header {
+    background-color: rgb(110, 111, 112);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+Header a {
+    text-decoration: none;
+
+}
+
+/* Nav styles with dropdown */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    width: 100%;
+    display: none;
+    top: 100%;
+}
+
+#navbar {
+    font-size: 100%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    
+}
+
+#navbar > li {
+    margin-bottom: 1rem;
+}
+
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main Content */
+#main {
+    background: url("../images/pexels-cottonbro-studio-4056535.jpg") no-repeat center center/cover;
+    padding-top: 40rem;
+    width: 100%;
+}
+
+#yoga-text {
+    font-size: 100%;
+    position: relative;
+    width: 30%;
+    margin-left: 55rem;
+    font-style: italic;
+
+}
+
+#yoga-text>h1,
+h2 {
+    color: #ffffff;
+}
+
+/* About */
+#About {
+    background-color: rgb(173, 166, 166);
+    width: 70%;
+    color: #ffffff;
+}
+
+#About>h2,
+#About>p {
+    margin-left: 15rem;
+}
+
+#About>p {
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+/* table */
+table {
+    margin-left: 15rem;
+    justify-content: space-between;
+    letter-spacing: 4px;
+    margin-bottom: 2px;
+    width: 200px;
+
+}
+
+/* Sign Up */
+#Sign-Up{
+    background: url("../images/pexels-ekaterina-bolovtsova-4051518.jpg") no-repeat center center/cover;
+    width: 30%;
+    margin-left: 56rem;
+    height: 500rem
+    opacity: 0.7;
+    position: relative;
+    bottom:17.5rem;
+    padding-bottom: 4rem;
+    padding-left: 10px;  
+}
+
+#Sign-Up > h2 {
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+
+#first_name, #last_name, #email_address {
+    margin-bottom: 2rem;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+#first_name {
+    margin-bottom: 4rem;
+    margin-left: 2.4rem;
+}
+
+#last_name {
+    margin-bottom: 4rem;
+    margin-left: 2.7rem;
+}
+
+#signup-form {
+    color: white;
+}
+
