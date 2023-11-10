@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: lato, sans-serif;
-    color: black;
+    color: white;
 
 }
 
@@ -28,7 +28,7 @@ Header {
     justify-content: space-between;
     align-items: center;
     padding-right: 0.61rem;
-    
+
 
 }
 
@@ -98,7 +98,7 @@ h2 {
 #About {
     background-color: rgb(173, 166, 166);
     width: 70%;
-    color: #ffffff;
+    color: white;
     font-size: 18px;
 }
 
@@ -178,11 +178,19 @@ table {
 
 }
 
+#Contact>p {
+    color: black;
+}
+
 #social-contact {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    width: 10px;
+}
 
+#social-contact i {
+    font-size: 260%;
+    padding: 5%;
+    color: rgb(79, 77, 77);
 }
