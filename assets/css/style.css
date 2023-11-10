@@ -27,7 +27,7 @@ Header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 Header a {
@@ -49,10 +49,10 @@ nav {
     font-size: 100%;
     letter-spacing: 4px;
     list-style-type: none;
-    
+
 }
 
-#navbar > li {
+#navbar>li {
     margin-bottom: 1rem;
 }
 
@@ -97,6 +97,7 @@ h2 {
     background-color: rgb(173, 166, 166);
     width: 70%;
     color: #ffffff;
+    font-size: 18px;
 }
 
 #About>h2,
@@ -109,36 +110,41 @@ h2 {
     padding-bottom: 1rem;
 }
 
+#about-list>li {
+    margin-bottom: 1rem;
+}
+
 /* table */
 table {
     margin-left: 15rem;
     justify-content: space-between;
     letter-spacing: 4px;
     margin-bottom: 2px;
-    width: 200px;
+    width: 250px;
 
 }
 
 /* Sign Up */
-#Sign-Up{
+#Sign-Up {
     background: url("../images/pexels-ekaterina-bolovtsova-4051518.jpg") no-repeat center center/cover;
     width: 30%;
-    margin-left: 56rem;
-    height: 500rem
-    opacity: 0.7;
+    margin-left: 55rem;
+    height: 500rem opacity: 0.7;
     position: relative;
-    bottom:17.5rem;
+    bottom: 23.1rem;
     padding-bottom: 4rem;
-    padding-left: 10px;  
+    padding-left: 10px;
 }
 
-#Sign-Up > h2 {
+#Sign-Up>h2 {
     padding-top: 4rem;
     margin-bottom: 4rem;
 
 }
 
-#first_name, #last_name, #email_address {
+#first_name,
+#last_name,
+#email_address {
     margin-bottom: 2rem;
     font-size: 10px;
     margin-left: 20px;
@@ -158,3 +164,6 @@ table {
     color: white;
 }
 
+/* footer */
+
+#Contact {}
