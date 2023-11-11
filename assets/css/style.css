@@ -75,7 +75,7 @@ nav {
 
 /* Main Content */
 #main {
-    background: url("../images/pexels-cottonbro-studio-4056535.jpg") no-repeat center center/cover;
+    background: url("../images/pexels-cottonbro-studio-4056535 (2).jpg") no-repeat center center/cover;
     padding-top: 40rem;
     width: 100%;
 }
@@ -95,19 +95,19 @@ h2 {
 }
 
 /* About */
-#About {
+#about {
     background-color: rgb(173, 166, 166);
-    width: 70%;
+    width: 100%;
     color: white;
     font-size: 18px;
 }
 
-#About>h2,
-#About>p {
+#about>h2,
+#about>p {
     margin-left: 15rem;
 }
 
-#About>p {
+#about>p {
     font-style: italic;
     padding-bottom: 1rem;
 }
@@ -127,18 +127,18 @@ table {
 }
 
 /* Sign Up */
-#Sign-Up {
+#sign-up {
     background: url("../images/pexels-ekaterina-bolovtsova-4051518.jpg") no-repeat center center/cover;
     width: 30%;
     margin-left: 55rem;
     height: 500rem;
     position: relative;
-    bottom: 23.1rem;
+    bottom: 0.1rem;
     padding-bottom: 4rem;
     padding-left: 10px;
 }
 
-#Sign-Up>h2 {
+#sign-up>h2 {
     padding-top: 4rem;
     margin-bottom: 4rem;
 
@@ -177,7 +177,7 @@ footer {
 }
 
 
-#Contact>p {
+#contact>p {
     color: black;
 }
 
@@ -229,9 +229,7 @@ footer {
 
     /* Media query: phones (540px and lesser) */
     @media screen and (max-width: 540px) {
-        main {
-            margin-top: 50px;
+        #main {
+            padding-left: ;
         }
-
-
     }
