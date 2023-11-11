@@ -1,6 +1,8 @@
 /* google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
 
+
+
 /* General styles */
 body {
     height: 100vh;
@@ -197,7 +199,7 @@ footer {
 
 #social-contact i {
     color: rgb(89, 87, 87);
-    margin-left: 10rem;
+    margin-left: 12rem;
     font-size: 40px;
 
 }
@@ -206,6 +208,12 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
+    body {
+        height: 100vh;
+        width: 100vw;
+
+    }
+
     nav {
         display: block;
         position: relative;
@@ -231,10 +239,53 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+}
 
-    /* Media query: phones (540px and lesser) */
-    @media screen and (max-width: 540px) {
-        #main {
-            padding-left: ;
-        }
+
+
+/* Media query: phones (540px and lesser) */
+
+@media screen and (max-width: 540px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        flex-grow: 1;
+
     }
+
+    #logo {
+        margin-left: 4px;
+    }
+
+    #main {
+        width: 500%;
+        padding-bottom: 9rem;
+
+
+    }
+
+    #about {
+        font-size: large;
+        width: 500%;
+
+
+    }
+
+    #about>h2,
+    #about>p {
+        margin-left: 15rem;
+    }
+
+    table {
+        margin-left: 15rem;
+    }
+
+    #sign-up {
+        width: 300%;
+    }
+
+
+
+
+}
