@@ -187,10 +187,12 @@ footer {
     flex-direction: row;
     position: relative;
     bottom: 6rem;
+    list-style-type: none;
 }
 
 #social-contact i {
     color: rgb(89, 87, 87);
     margin-left: 10rem;
     font-size: 40px;
+
 }
