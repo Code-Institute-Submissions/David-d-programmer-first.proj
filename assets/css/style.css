@@ -129,36 +129,39 @@ table {
 /* Sign Up */
 #sign-up {
     background: url("../images/pexels-ekaterina-bolovtsova-4051518.jpg") no-repeat center center/cover;
-    width: 30%;
-    margin-left: 55rem;
-    height: 500rem;
+    width: 80%;
+    align-items: center;
+    margin-left: 1.5px;
+    height: 5rem;
     position: relative;
     bottom: 0.1rem;
     padding-bottom: 4rem;
     padding-left: 10px;
+    padding-top: 8rem;
 }
 
 #sign-up>h2 {
-    padding-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: -6rem;
+    margin-bottom: 30px;
 
 }
+
 
 #first_name,
 #last_name,
 #email_address {
-    margin-bottom: 2rem;
     font-size: 10px;
     margin-left: 20px;
+
 }
 
 #first_name {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     margin-left: 2.4rem;
 }
 
 #last_name {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     margin-left: 2.7rem;
 }
 
@@ -170,15 +173,17 @@ table {
 footer {
     font-size: larger;
     align-items: center;
-    height: 200rem;
+    height: 20rem;
     position: relative;
-    bottom: 30rem;
+    bottom: 2px;
     padding-bottom: 4rem;
 }
 
 
 #contact>p {
     color: black;
+
+
 }
 
 /* social */
