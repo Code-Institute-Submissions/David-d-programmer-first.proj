@@ -167,30 +167,30 @@ table {
 }
 
 /* footer */
-
-#Contact {
+footer {
     font-size: larger;
-    align-items: left;
-    height: 500rem;
+    align-items: center;
+    height: 200rem;
     position: relative;
     bottom: 30rem;
     padding-bottom: 4rem;
-
 }
+
+#Contact {}
 
 #Contact>p {
     color: black;
 }
 
 #social-contact {
-    text-align: center;
     display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+    flex-direction: row;
+    position: relative;
+    bottom: 6rem;
 }
 
 #social-contact i {
-    font-size: 260%;
-    padding: 5%;
-    color: rgb(79, 77, 77);
+    color: rgb(89, 87, 87);
+    margin-left: 10rem;
+    font-size: 40px;
 }
