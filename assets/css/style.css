@@ -176,12 +176,12 @@ footer {
     padding-bottom: 4rem;
 }
 
-#Contact {}
 
 #Contact>p {
     color: black;
 }
 
+/* social */
 #social-contact {
     display: flex;
     flex-direction: row;
@@ -196,3 +196,42 @@ footer {
     font-size: 40px;
 
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    #navbar>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        margin-left: 2px;
+        font-size: 150%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Media query: phones (540px and lesser) */
+    @media screen and (max-width: 540px) {
+        main {
+            margin-top: 50px;
+        }
+
+
+    }
