@@ -247,7 +247,10 @@ footer {
 /* Media query: phones (540px and lesser) */
 
 @media screen and (max-width: 540px) {
-
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
     #logo {
         margin-left: 4px;
@@ -256,7 +259,7 @@ footer {
 
     #main {
         width: 500%;
-        padding-bottom: 11rem;
+        padding-bottom: 12rem;
 
     }
 
