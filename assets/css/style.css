@@ -247,27 +247,21 @@ footer {
 
 @media screen and (max-width: 540px) {
 
-    body {
-        width: 100vw;
-        height: 100vh;
-        flex-grow: 1;
-
-    }
-
     #logo {
         margin-left: 4px;
     }
 
+
     #main {
         width: 500%;
-        padding-bottom: 9rem;
-
+        padding-bottom: 11rem;
 
     }
 
     #about {
         font-size: large;
         width: 500%;
+        padding-top: 4rem;
 
 
     }
@@ -282,10 +276,19 @@ footer {
     }
 
     #sign-up {
-        width: 300%;
+        width: 500%;
+        height: 700px;
+        margin-left: 0rem;
+
     }
 
+    #social-contact {
 
+
+
+        bottom: 0rem;
+
+    }
 
 
 }
