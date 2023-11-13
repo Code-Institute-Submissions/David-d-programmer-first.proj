@@ -99,10 +99,12 @@ h2 {
 
 /* About */
 #about {
-    background-color: rgb(173, 166, 166);
+    background-color: rgb(65, 64, 64);
+    font-style: bold;
     width: 100%;
     color: white;
     font-size: 18px;
+    margin-top: -1.3rem;
 }
 
 #about>h2,
@@ -132,15 +134,16 @@ table {
 /* Sign Up */
 #sign-up {
     background: url("../images/pexels-ekaterina-bolovtsova-4051518.jpg") no-repeat center center/cover;
-    width: 80%;
+    width: 100%;
     align-items: center;
-    margin-left: 1.5px;
-    height: 5rem;
+    margin-left: 0.2px;
+    height: 9rem;
     position: relative;
     bottom: 0.1rem;
     padding-bottom: 4rem;
     padding-left: 10px;
     padding-top: 8rem;
+    filter: contrast(150%);
 }
 
 #sign-up>h2 {
@@ -172,6 +175,12 @@ table {
     color: white;
 }
 
+.submit-button {
+    margin-top: 3rem;
+    margin-left: 8rem;
+    font-size: 1.5rem;
+}
+
 /* footer */
 footer {
     font-size: larger;
@@ -194,14 +203,17 @@ footer {
     display: flex;
     flex-direction: row;
     position: relative;
-    bottom: 6rem;
+    bottom: -1rem;
     list-style-type: none;
 }
 
 #social-contact i {
     color: rgb(89, 87, 87);
-    margin-left: 12rem;
+    margin-left: 0.1rem;
     font-size: 40px;
+    align-items: left;
+    width: 100px;
+
 
 }
 
