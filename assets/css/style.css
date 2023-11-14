@@ -252,11 +252,6 @@ footer {
 }
 
 
-
-
-
-
-
 /* Media query: phones (540px and lesser) */
 
 @media screen and (max-width: 540px) {
@@ -302,4 +297,10 @@ footer {
 
     }
 
-}
+    /* Media query: (1200px and higher) */
+    @media screen and (min-width: 1200px) {
+        #main {
+            padding-top: 30rem;
+        }
+
+    }
