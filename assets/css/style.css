@@ -79,7 +79,7 @@ nav {
 /* Main Content */
 #main {
     background: url("../images/pexels-cottonbro-studio-4056535 (2).jpg") no-repeat center center/cover;
-    padding-top: 40rem;
+    padding-top: 60rem;
     width: 100%;
 }
 
@@ -294,13 +294,5 @@ footer {
         height: 700px;
         margin-left: 0rem;
         padding-bottom: 10rem;
-
-    }
-
-    /* Media query: (1200px and higher) */
-    @media screen and (min-width: 1200px) {
-        #main {
-            padding-top: 70rem;
-        }
 
     }
