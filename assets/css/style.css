@@ -100,7 +100,6 @@ h2 {
 /* About */
 #about {
     background-color: rgb(65, 64, 64);
-    font-style: bold;
     width: 100%;
     color: white;
     font-size: 18px;
@@ -211,7 +210,6 @@ footer {
     color: rgb(89, 87, 87);
     margin-left: 0.1rem;
     font-size: 40px;
-    align-items: left;
     width: 100px;
 
 
