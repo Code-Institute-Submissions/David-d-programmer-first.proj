@@ -300,7 +300,7 @@ footer {
     /* Media query: (1200px and higher) */
     @media screen and (min-width: 1200px) {
         #main {
-            padding-top: 30rem;
+            padding-top: 70rem;
         }
 
     }
